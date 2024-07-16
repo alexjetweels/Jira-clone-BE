@@ -1,27 +1,17 @@
 # Awesome NestJS Boilerplate v10
 
-
 > This is an ever-evolving, very opinionated architecture and dev environment for new node projects using [NestJS](https://nestjs.com). Questions, feedback, and for now, even bikeshedding are welcome. 😄
 
-
-
 # 3. Create Environment variables file.
+
 cp .env.example .env
 
 # 3. Install dependencies. (Make sure yarn is installed: https://yarnpkg.com/lang/en/docs/install)
+
 yarn
-```
 
-## Checklist
+````
 
-When you use this template, try follow the checklist to update your info properly
-
-- [ ] Change the author name in `LICENSE`
-- [ ] Change configurations in `.env`
-- [ ] Remove the `.github` folder which contains the funding info
-- [ ] Clean up the README.md file
-
-And, enjoy :)
 
 
 ### Development
@@ -30,7 +20,7 @@ And, enjoy :)
 yarn start:dev
 
 # 5. Read the documentation linked below for "Setup and development".
-```
+````
 
 ### Build
 
@@ -45,9 +35,6 @@ And you will see the generated file in `dist` that ready to be served.
 ## Features
 
 <dl>
-  <!-- <dt><b>Quick scaffolding</b></dt>
-  <dd>Create modules, services, controller - right from the CLI!</dd> -->
-
   <dt><b>Instant feedback</b></dt>
   <dd>Enjoy the best DX (Developer eXperience) and code your app at the speed of thought! Your saved changes are reflected instantaneously.</dd>
 
