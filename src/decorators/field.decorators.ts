@@ -137,7 +137,7 @@ export function StringField(
     );
   }
 
-  const minLength = options.minLength || 1;
+  const minLength = options.minLength ?? 1;
 
   decorators.push(MinLength(minLength, { each: options.each }));
 
